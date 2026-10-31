@@ -17,16 +17,6 @@ Paw Haven Pet Care Centre is a five-page website project. The pages are Home (`_
 ## Form process — important limitation
 The forms validate the entered information and prepare an email addressed to `pawhaven@gmail.com` in the visitor's default email application. They do **not** send an email automatically and do not store submissions on a server. The visitor must review and send the email. A real automatic submission process requires a configured backend or form service.
 
-## Part 2 feedback and response — complete before submission
-The actual lecturer/marker feedback was not included in the website ZIP, so it must not be invented. Complete this section using the feedback you genuinely received:
-
-| Feedback received in Part 2 | Change made in Part 3 | How the change improved the website |
-|---|---|---|
-| [Insert the exact feedback] | [Describe the change you made] | [Explain the improvement] |
-| [Insert the exact feedback] | [Describe the change you made] | [Explain the improvement] |
-
-If no formal feedback was provided, state that honestly and describe the improvements you identified yourself. Do not claim that a marker requested a change unless that happened.
-
 ## Changelog
 ### Part 3 — 31 October 2026
 - Added meta keywords to all five pages and reviewed page-specific SEO titles and descriptions.
@@ -36,18 +26,14 @@ If no formal feedback was provided, state that honestly and describe the improve
 - Updated map embeds to search the two addresses already displayed on the Contact page; confirm both locations are correct before publishing.
 - Improved responsive map, form, focus and reduced-motion styling.
 - Updated project documentation and added a Part 2 feedback response table for completion.
+- 
+## REFERENCES - 
+FOUR PAWS (2026) *About FOUR PAWS*. Available at: https://www.four-paws.org.za/about-us/about-four-paws (Accessed: 31 October 2026).
+FOUR PAWS (n.d.) *Reports and resources*. Available at: https://www.four-paws.org.za/our-stories/reports-resources (Accessed: 31 October 2026).
+People’s Dispensary for Sick Animals (PDSA) (n.d.) *Home*. Available at: https://www.pdsa.org.za/ (Accessed: 31 October 2026).
+People’s Dispensary for Sick Animals (PDSA) (n.d.) *Services you can expect from the PDSA*. Available at: https://www.pdsa.org.za/services/ (Accessed: 31 October 2026).
+South African Veterinary Council (SAVC) (n.d.) *Know your vet: How to ensure your pets receive the best medical care*. Available at: https://savc.org.za/know-your-vet-how-to-ensure-your-pets-receive-the-best-medical-care/ (Accessed: 31 October 2026).
 
-## References — complete before submission
-Add the sources you actually used while researching and developing the website. Use the referencing style required by your lecturer. Do not submit invented sources or URLs. Include image sources where required by your assignment brief.
-
-## Before publishing / submission checklist
-1. Replace `YOUR-DEPLOYED-DOMAIN.example` in `robots.txt` and `sitemap.xml` with the final public website domain. If the site is not publicly deployed, do not claim it is deployed.
-2. Confirm that the two Contact page addresses and map pins are the intended Paw Haven locations. The address text was retained from the supplied project files.
-3. Confirm the phone number, email address, opening hours and all business details are correct and approved for publication.
-4. Complete the Part 2 feedback table with genuine feedback and add your actual references.
-5. Test all five pages, navigation links, all four service filters, image lightbox, both forms and maps on desktop and mobile.
-6. Push the project to GitHub and make several meaningful commits (for example: `Add responsive page layout`, `Add service search and filters`, `Add form validation and email draft`, `Improve SEO and accessibility`). Only use commit messages that accurately describe work you performed.
-7. Publish the website using your required hosting platform and test the live URL. GitHub commit history and deployment cannot be created by this ZIP alone.
 
 ## File structure
 - `_index.html`, `about.html`, `services.html`, `contact.html`, `enquiries.html` — website pages
