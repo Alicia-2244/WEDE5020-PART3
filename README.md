@@ -1,8 +1,7 @@
 # Paw Haven Pet Care Centre — Part 3
 
 ## Project overview
-Paw Haven Pet Care Centre is a five-page website project. The pages are Home (`_index.html`), About (`about.html`), Services (`services.html`), Contact (`contact.html`) and Enquiries (`enquiries.html`). Open `_index.html` in a browser to start.
-
+Paw Haven Pet Care Centre is a five-page website project. The pages are Home (`_index.html`), About (`about.html`), Services (`services.html`), Contact (`contact.html`) and Enquiries (`enquiries.html`). 
 ## Part 3 enhancements
 - Added page-specific SEO title tags, meta descriptions, meta keywords, viewport and robots metadata.
 - Added descriptive image filenames and meaningful alternative text for content images.
