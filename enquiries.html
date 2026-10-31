@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="pet care enquiry, pet grooming enquiry, pet sitting, dog walking, pet boarding Pretoria">
+    <meta name="description" content="Send Paw Haven an enquiry about pet grooming, sitting, dog walking, boarding, sponsorship or volunteering.">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="css.assets/myfirststyles.css">
+    <title>Pet Care Enquiries | Paw Haven Pet Care Centre</title>
+    <script src="js.assets/pawhaven.js" defer></script>
+</head>
+<body>
+    <header>
+       <img src="_images/paw-haven-logo.jpeg" alt="Paw Haven Pet Care Centre logo" width="350">
+       <!-- name and slogan of our pet care centre -->
+       <h1>Paw Haven Pet Care Centre</h1>
+    <h2>Where Every Paw Feels at Home!</h2>
+    
+</header>
+  <!-- Navigation Menu -->
+<nav aria-label="Main navigation">
+    <a href="_index.html">Home</a> |
+    <a href="about.html">About Us</a> |
+    <a href="services.html">Services</a> |
+    <a href="contact.html">Contact</a> |
+    <a href="enquiries.html">Enquiries</a>
+</nav>
+
+<main>
+    <img src="_images/cat-and-dog.jpeg" alt="A cat and dog together, representing Paw Haven pet care" width="320">
+     <!--enquiries form for customers to fill in their questions or requests-->
+    <h1>Enquiries</h1>
+    <p>
+    Whether you have a question about our services or need help choosing the right care for your pet,
+     please complete the form below and we will be happy to assist you.
+</p>
+    
+    <form class="paw-form" data-email-form data-subject="Paw Haven service enquiry">
+      <label for="enq-name">Full name</label>
+      <input id="enq-name" name="Full name" type="text" minlength="2" maxlength="80" required autocomplete="name">
+
+      <label for="enq-email">Email address</label>
+      <input id="enq-email" name="Email address" type="email" required autocomplete="email">
+
+      <label for="enq-phone">Phone number</label>
+      <input id="enq-phone" name="Phone number" type="tel" pattern="[0-9 +()-]{7,20}" title="Enter a valid phone number using 7 to 20 digits or common phone symbols." required autocomplete="tel">
+
+      <label for="enq-pet">Pet type</label>
+      <select id="enq-pet" name="Pet type" required>
+        <option value="">Choose a pet type</option><option>Dog</option><option>Cat</option><option>Other</option>
+      </select>
+
+      <label for="enq-service">Service you are interested in</label>
+      <select id="enq-service" name="Service" required>
+        <option value="">Choose a service</option><option>Pet grooming</option><option>Pet sitting</option><option>Dog walking</option><option>Pet boarding</option><option>Volunteering</option><option>Sponsorship</option><option>Other enquiry</option>
+      </select>
+
+      <label for="enq-message">Tell us what you need</label>
+      <textarea id="enq-message" name="Message" rows="5" minlength="10" maxlength="1000" required></textarea>
+      <button type="submit">Prepare enquiry email</button>
+      <p class="form-status" role="status" aria-live="polite"></p>
+      <p class="form-note">This form validates your details and prepares an email in your email application. It does not send information automatically.</p>
+    </form>
+    </main>
+<footer>
+    <div class="footer-container">
+
+
+        <div class="quick-links">
+            <h3>Quick Links</h3>
+
+            <a href="_index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="enquiries.html">Enquiries</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 Paw Haven Pet Care Centre. All Rights Reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
